@@ -1,11 +1,8 @@
 /* google font  */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
 .poppins{
     font-family: 'Poppins', sans-serif;
 }
-
 /* carousel styles start */
 .carousel-item {
     height: 40rem;
@@ -13,9 +10,7 @@
     position: relative;
     background-position: center;
     background-size: cover;
-
 }
-
 .carousel-item::before {
     content: "";
     display: block;
@@ -28,7 +23,6 @@
     background: #000;
     opacity: 0.5;
 }
-
 .container-slider {
     position: absolute;
     bottom: 0;
@@ -37,7 +31,6 @@
     padding-bottom: 200px;
 }
 /* carousel styles end */
-
 /* buttons start  */
 .custom-button{
     background-color: #289BDE;
@@ -57,9 +50,7 @@
     font-weight: 500;
     text-decoration: none;
 }
-
 /* buttons end  */
-
 .custom-text-color{
     color: #289BDE;
 }
