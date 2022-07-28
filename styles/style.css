@@ -5,6 +5,39 @@
 .poppins{
     font-family: 'Poppins', sans-serif;
 }
+
+/* carousel styles start */
+.carousel-item {
+    height: 40rem;
+    background: #777;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+    background: #000;
+    opacity: 0.5;
+}
+
+.container-slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 200px;
+}
+/* carousel styles end */
+
 /* buttons start  */
 .custom-button{
     background-color: #289BDE;
@@ -33,24 +66,4 @@
 .custom-bg{
     background-color: #289BDE;
 }
-/* meadia query for extra small device */
 
-@media only screen and (max-width: 576px) {
-    .carousel-caption h1{
-        font-size: 1rem;
-    }
-    .carousel-caption p{
-        font-size: 0.5rem;
-    }
-}
-
-/* meadia query for small device */
-
-@media only screen and (min-width: 577px) and (max-width: 768px) {
-    .carousel-caption h1{
-        font-size: 1.50rem;
-    }
-    .carousel-caption p{
-        font-size: 0.75rem;
-    }
-}
