@@ -5,7 +5,8 @@
 .poppins{
     font-family: 'Poppins', sans-serif;
 }
-.get-stated-button{
+/* buttons start  */
+.custom-button{
     background-color: #289BDE;
     padding: 10px 30px;
     border: none;
@@ -14,8 +15,23 @@
     font-weight: 500;
     text-decoration: none;
 }
+.custom-button-modal{
+    background-color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #289BDE;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* buttons end  */
+
 .custom-text-color{
     color: #289BDE;
+}
+.custom-bg{
+    background-color: #289BDE;
 }
 /* meadia query for extra small device */
 
